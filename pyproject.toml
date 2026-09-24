@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "mal-qos"
+version = "0.1.0"
+description = "QoS MAL"
+authors = ["Roger Mähler <roger.mahler@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.2"
+loguru = "^0.7.2"
+xlrd = "^2.0.1"
+openpyxl = "^3.1.2"
+sqlalchemy = "^2.0.30"
+psycopg2 = "^2.9.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
